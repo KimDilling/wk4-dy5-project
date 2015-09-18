@@ -1,1 +1,18 @@
 <!-- #lists the posted "growls" -->
+
+<%= @message_text %>
+<%= @alert %>
+
+	<form name = "message" id="message" action="/index" method="get">
+			
+			
+		<input type = "submit" name="submit" value="New Post">
+
+	</form> 
+
+
+<ul>
+	<% @messages.each do |growl| %>
+		<li><%= growl %></li>
+	<% end %>
+</ul>

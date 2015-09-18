@@ -1,1 +1,14 @@
-stylesheet.css
+body {
+background-color: #101DAD;
+color: white;
+text-align: center;
+
+
+}
+
+ul {
+list-style: none;
+-webkit-padding-start: 0px;
+
+
+}
